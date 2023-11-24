@@ -372,6 +372,10 @@ span {
    font-family: 'Berkshire Swash';
 }
 
+.filter {
+   filter: blur(5px);
+}
+
 .cherry {
    width: 55px;
    height: 50px;
