@@ -35,7 +35,7 @@ body {
    background: #ffffff;
    border-radius: 10px;
    position: absolute;
-   top: 180px;
+   top: 130px;
    left: 50%;
    margin-left: -2.4px;
    margin-top: -8.33333333px;
@@ -288,6 +288,10 @@ span {
    cursor: pointer;
 }
 
+p.fa-heart {
+   margin: 10px;
+}
+
 .fa-birthday-cake {
    color: #5a6b65;
 }
@@ -362,8 +366,8 @@ span {
 .overlay h1 {
    position: relative;
    color: #d5ad6d;
-   margin-top: 50px;
-   font-size: 65px;
+   margin-top: 20px;
+   font-size: 60px;
    background-color: #f3ec78;
    background-image: linear-gradient(to right, #000000, #ff0000);
    background-size: 100%;
