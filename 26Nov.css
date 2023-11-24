@@ -12,7 +12,7 @@ body {
 .wish {
    text-align: center;
    margin: 0;
-   padding: 25px;
+   padding: 10px;
    font-family: 'Rajdhani';
    text-transform: uppercase;
    font-size: 40px;
@@ -24,7 +24,7 @@ body {
 #cake {
    display: block;
    position: relative;
-   margin: -18em auto 0 auto;
+   margin: -20em auto 0 auto;
    z-index: -1;
 }
 
@@ -35,7 +35,7 @@ body {
    background: #ffffff;
    border-radius: 10px;
    position: absolute;
-   top: 240px;
+   top: 180px;
    left: 50%;
    margin-left: -2.4px;
    margin-top: -8.33333333px;
@@ -121,6 +121,10 @@ body {
    text-align: center;
 }
 
+.text h1 {
+   margin: 1rem;
+}
+
 .container {
    width: 100%;
    display: flex;
@@ -129,8 +133,8 @@ body {
 }
 
 .arrow {
-   width: 90px;
-   height: 20px;
+   width: 80px;
+   height: 15px;
    background-color: #ffe5d9;
    margin: auto;
    margin-bottom: 30px;
@@ -144,8 +148,8 @@ body {
    border-width: 30px 55px 0;
    border-color: #ffe5d9 transparent;
    position: absolute;
-   top: 20px;
-   left: -10px;
+   top: 15px;
+   left: -15px;
 }
 
 .wheel {
@@ -358,7 +362,7 @@ span {
 .overlay h1 {
    position: relative;
    color: #d5ad6d;
-   margin-top: 100px;
+   margin-top: 50px;
    font-size: 65px;
    background-color: #f3ec78;
    background-image: linear-gradient(to right, #000000, #ff0000);
